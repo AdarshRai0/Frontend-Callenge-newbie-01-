@@ -1,5 +1,5 @@
 # Frontend Mentor - Order summary card
-# link:order-summary-component-adarshrai.netlify.app
+# link:https://order-summary-component-adarshrai.netlify.app
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
