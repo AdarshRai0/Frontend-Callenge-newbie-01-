@@ -2,53 +2,47 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-  <link rel="stylesheet" href="style.css">
-
-  <title>Frontend Mentor | Order summary card</title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <title>Frontend Mentor | Order summary card</title>
 </head>
 
 <body>
-
-  <main>
-
-    <section class="card">
-
-      <img src="images/illustration-hero.svg" alt="Hero" class="card__img">
-
-      <div class="card__container">
-        <h1 class="card__heading">Order Summary</h1>
-
-        <p class="card__text">
-          You can now listen to millions of songs, audiobooks, and podcasts on any
-          device anywhere you like!
-        </p>
-
-        <div class="card__plan">
-          <div class="card__plan-logo">
-            <img src="images/icon-music.svg" alt="Music">
-          </div>
-          <div class="card__plan-type">
-            <span class="card__plan-period">Annual Plan</span>
-            <span class="card__plan-price">$59.99/year</span>
-          </div>
-          <button class="card__btn card__btn--change">Change</button>
+    <div class="container" role="main">
+        <div class="card">
+            <div class="banner">
+                <img src="images/illustration-hero.svg" alt="Illustration">
+            </div>
+            <h1>Order Summary</h1>
+            <p>
+                You can now listen to millions of songs, audiobooks, and podcasts on any
+                device anywhere you like!
+            </p>
+            <div class="plan">
+                <img src="images/icon-music.svg" alt="music icon">
+                <div class="plan-info">
+                    <h2>Annual Plan</h2>
+                    $59.99/year
+                </div>
+                <a href="#">Change</a>
+            </div>
+            <div class="btn">
+                <button>
+                    Proceed to Payment
+                </button>
+            </div>
+            <a class="cancel" href="">
+                Cancel Order
+            </a>
         </div>
-
-        <button class="card__btn card__btn--payment">Proceed to Payment</button>
-
-        <button class="card__btn card__btn--cancel">Cancel Order</button>
-      </div>
-
-    </section>
-  </main>
-
+    </div>
+    <div class="attribution" role="contentinfo">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/anoshaahmed" target="_blank">Anosha Ahmed</a>.
+    </div>
 </body>
 
 </html>
